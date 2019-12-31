@@ -1,0 +1,15 @@
+{"properties": [{
+  "name": "deDts.datasource.db-url",
+  "type": "java.lang.String",
+  "description": "Url para acesso ao banco safedb"
+},
+{
+  "name": "deDts.datasource.username",
+  "type": "java.lang.String",
+  "description": "Usuário do banco."
+},
+{
+  "name": "deDts.datasource.password",
+  "type": "java.lang.String",
+  "description": "Password do banco criptografado."
+}]}

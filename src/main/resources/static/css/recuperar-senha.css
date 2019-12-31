@@ -1,0 +1,18 @@
+html {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+}
+
+body {
+	position: relative;
+	padding: 20%;
+	background: linear-gradient(#20c0d8, #154a8d);
+	font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial,	sans-serif;
+	font-weight: 400;
+	overflow: hidden;
+}
+
+.distancia-formulario-topo{	margin-top: -15%;}
+.distancia-formulario-margem-esquerda{margin-left: 20%;}
+.campo-obrigatorio{color: red;}

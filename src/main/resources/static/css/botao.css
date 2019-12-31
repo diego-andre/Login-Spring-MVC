@@ -1,0 +1,30 @@
+.de-button {
+  position: relative;
+  padding-left: 44px;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.de-button > :first-child {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 32px;
+  line-height: 34px;
+  font-size: 1.6em;
+  text-align: center;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+.de-button-success {
+  background-color: #00a65a;
+  border-color: #008d4c;
+  color: white;
+}
+.de-button-success:hover,
+.de-button-success:active,
+.de-button-success.hover {
+  background-color: #008d4c;
+  color: white;
+}
